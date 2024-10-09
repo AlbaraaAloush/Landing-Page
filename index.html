@@ -1,141 +1,154 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <script src="https://kit.fontawesome.com/92deeb3768.js" crossorigin="anonymous"></script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/92deeb3768.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Landing Page</title>
-</head>
+  </head>
 
-<body>
-
-    <nav>
-        <div class="container nav-container">
-
-
-            <div class="logo">
-                <i class="fa-brands fa-freebsd"></i>
-                <h1>FreeBSD</h1>
-            </div>
-            <div>
-                <ul class="nav-links">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Get FreeBSD</a></li>
-                    <li><a href="#">Documentation</a></li>
-                </ul>
-
-            </div>
-
-
-        </div>
-    </nav>
+  <body>
+    
 
     <header>
-        <div class="container header-container">
-            <div class="hero">
-                <h1>The FreeBSD Project</h1>
-                <p>FreeBSD is an operating system used to power modern servers, desktops, and embedded platforms. A
-                    large community has continually developed it for more than thirty years. Its advanced networking,
-                    security, and storage features have made FreeBSD the platform of choice for many of the busiest web
-                    sites and most pervasive embedded networking and storage devices.</p>
 
-                <a href="#"><button>Sign Up</button></a>
-
-
-
+        <nav>
+            <div class="container nav-container">
+              <div class="logo">
+                <i class="fa-brands fa-freebsd"></i>
+                <h1>FreeBSD</h1>
+              </div>
+              <div>
+                <ul class="nav-links">
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">Get FreeBSD</a></li>
+                  <li><a href="#">Documentation</a></li>
+                </ul>
+              </div>
             </div>
-            <div class="daemon-div">
-                <img src="Images\FreeBsdDaemon.png" alt="FreeBSD Daemon">
-            </div>
+          </nav>
 
 
+      <div class="container header-container">
+        <div class="hero">
+          <h1>The FreeBSD Project</h1>
+          <p>
+            FreeBSD is an operating system used to power modern servers,
+            desktops, and embedded platforms. A large community has continually
+            developed it for more than thirty years. Its advanced networking,
+            security, and storage features have made FreeBSD the platform of
+            choice for many of the busiest web sites and most pervasive embedded
+            networking and storage devices.
+          </p>
+
+          <button>Download</button>
         </div>
-
-
-
-
-
+        <div class="daemon-div">
+          <img src="Images\FreeBsdDaemon.png" alt="FreeBSD Daemon" />
+        </div>
+      </div>
     </header>
 
     <main>
-        <section>
-            <div class="container features-container">
+      <section>
+        <div class="container features-container">
+          <div class="features-header">
+            <h1>FreeBSD Features</h1>
+          </div>
+          <div class="features-div">
+            <div class="one-feature-div">
+              <div class="feature-img">
+                <img src="Images\FreeBSD.png" alt="OpenZFS" />
+              </div>
 
-                <div class="features-header">
+              <div class="feature-para">
+                <p>
+                  More than a file system, ZFS is fundamentally different from
+                  traditional file systems. Combining the traditionally separate
+                  roles of software RAID, volume manager and file system
+                  provides ZFS with unique advantages.
+                </p>
+              </div>
+            </div>
+            <div class="one-feature-div">
+              <div class="feature-img">
+                <img src="Images\FreeBSD.png" alt="FreeBSD Jails" />
+              </div>
+              <div>
+                <p class="feature-para">
+                  Jails improve upon chroot in several ways. In a traditional
+                  chroot environment, processes are limited to a part of the
+                  file system.
+                </p>
+              </div>
+            </div>
+            <div class="one-feature-div">
+              <div class="feature-img">
+                <img src="Images\FreeBSD.png" alt="GNOME" />
+              </div>
 
-                    <h1>FreeBSD Features</h1>
+              <div class="feature-para">
+                <p>
+                  Every part of GNOME has been designed to make it simple and
+                  easy to use. The Activities Overview is a simple way to access
+                  all your basic tasks.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="container quote-container">
+          <div class="quote-div">
+            <i
+              >When I read through the answers to the “FreeBSD in three words”
+              question it finally dawned upon me:<br />Infrastructure, not
+              product. Interesting way to look at it.
+            </i>
+            <p>-Probono</p>
+          </div>
+          <div></div>
+        </div>
+      </section>
 
+      <section>
+        <div class="container action-container">
+
+            <div class="action-div">
+
+                <div class="action-text">
+                    <h1>Taste the power of UNIX</h1>
+    
+                    <p> <b>FreeBSD</b>, the world’s best open source operating system.</p>
                 </div>
-                <div class="features-div">
-
-                    <div>
-
-                        <div>
-                            <img src="Images\OpenZFS.jpg" alt="OpenZFS">
-                        </div>
-
-                        <div>
-                            <p>More than a file system, ZFS is fundamentally different from traditional file systems.
-                                Combining the traditionally separate roles of software RAID, volume manager and file
-                                system
-                                provides ZFS with unique advantages.</p>
-                        </div>
-
-                    </div>
-                    <div>
-
-                        <div>
-                            <img src="Images\freebsd_jail.png" alt="FreeBSD Jails">
-                        </div>
-                        <div>
-                            <p>Jails improve upon chroot in several ways. In a traditional chroot environment, processes
-                                are
-                                limited to a part of the file system.</p>
-                        </div>
-                    </div>
-                    <div>
-                        <div>
-                            <img src="Images\images.png" alt="GNOME">
-                        </div>
 
 
-                        <div>
-                            <p>Every part of GNOME has been designed to make it simple and easy to use. The Activities
-                                Overview is a simple way to access all your basic tasks.</p>
-
-                        </div>
-                    </div>
-
+                <div class="action-button">
+                    <button>Register</button>
                 </div>
 
-
+                
 
             </div>
-        </section>
-        <section>
-            <div class="container">
 
-                <div>
-                    <p>When I read through the answers to the “FreeBSD in three words” question it finally dawned upon me:<br>Infrastructure, not product. Interesting way to look at it. </p>
-                </div>
-                <div></div>
 
-            </div>
-        </section>
-        <section>
-            <div class="container"></div>
-        </section>
+        </div>
+      </section>
     </main>
 
     <footer>
-        <div class="container"></div>
+      <div class="container footer-container">
+
+        <p><i class="fas fa-exclamation-circle"></i> This website is intended for learning purpose only.</p>
 
 
+      </div>
     </footer>
-
-</body>
-
+  </body>
 </html>

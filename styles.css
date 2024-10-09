@@ -3,26 +3,26 @@ body {
   margin: 0;
 }
 
+header {
+  background-color: #232833;
+}
+
 .container {
   padding-right: 10rem;
   padding-left: 10rem;
-}
-
-nav {
-  background-color: #2B2D42;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .nav-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 10px;
-  padding-bottom: 10px;
 }
 
 .logo {
   display: flex;
-  color: #EF233C;
+  color: #b5010f;
 }
 .logo i {
   font-size: 50px;
@@ -40,7 +40,7 @@ nav {
   margin-right: 5px;
   font-weight: 800;
   text-decoration: none;
-  color: #EDF2F4;
+  color: #edf2f4;
 }
 .nav-links li:first-child a {
   margin-left: 0;
@@ -49,12 +49,11 @@ nav {
   margin-right: 0;
 }
 .nav-links li a:hover {
-  color: #EF233C;
+  color: #b5010f;
   transition: 0.2s ease-in;
 }
 
 .header-container {
-  background-color: #2B2D42;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -62,7 +61,7 @@ nav {
 
 .hero {
   width: 50%;
-  color: #EDF2F4;
+  color: #edf2f4;
 }
 .hero h1 {
   font-size: 40px;
@@ -72,10 +71,11 @@ nav {
   width: 100px;
   height: 30px;
   font-weight: 700;
-  color: #EDF2F4;
-  background-color: #EF233C;
+  color: #edf2f4;
+  background-color: #b5010f;
   border: none;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 .daemon-div {
@@ -88,9 +88,9 @@ nav {
 }
 
 .features-container {
-  padding-top: 10px;
-  padding-bottom: 10px;
   background-color: #fff;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 
 .features-header h1 {
@@ -104,25 +104,93 @@ nav {
   display: flex;
   justify-content: center;
 }
-.features-div div {
+
+.one-feature-div {
   width: 150px;
-  height: 150px;
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  margin: 20px;
 }
-.features-div div div img {
-  padding: 5px;
+
+.feature-img {
   border: 5px solid #495057;
   border-radius: 10px;
-  width: 100%;
-  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 140px;
 }
-.features-div div div p {
+.feature-img img {
+  width: 100%;
+  height: auto;
+}
+
+.feature-para {
+  text-align: center;
+  font-size: 10px;
+  font-weight: 600;
   color: #495057;
+}
+
+.quote-container {
+  background-color: #dee2e6;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.quote-div {
+  color: #14213d;
+  font-size: 26px;
+}
+.quote-div p {
+  font-weight: 700;
+  text-align: end;
+}
+
+.action-container {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.action-div {
+  width: 80%;
+  padding: 30px;
+  background-color: #b5010f;
+  color: #edf2f4;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 15px;
+}
+
+.action-text h1 {
   margin: 0;
+  padding-bottom: 10px;
+}
+.action-text p {
+  margin: 0;
+}
+
+.action-button {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+.action-button button {
+  width: 100px;
+  height: 30px;
+  font-weight: 700;
+  color: #edf2f4;
+  border: 2px solid #edf2f4 !important;
+  background-color: #b5010f;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.footer-container {
+  background-color: #14213d;
+  color: #fff;
+  text-align: center;
   font-size: 12px;
   font-weight: 600;
-  text-align: center;
 }/*# sourceMappingURL=styles.css.map */
